@@ -1,0 +1,110 @@
+.footer {
+    background: #000612;
+    color: #ecf0f1;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    /* Adds spacing between sections */
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    /* Adjust based on your design needs */
+    margin: 10px;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    /* Center social icons */
+}
+
+.social-icons a {
+    color: #ecf0f1;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #FFB200;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #EB5B00;
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Style the button */
+#backToTopBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* 20px from the bottom */
+    right: 20px;
+    /* 20px from the right */
+    z-index: 99;
+    /* Place it above other elements */
+    background-color: #FFB200;
+    /* Dark grey background */
+    color: #F7F7F8;
+    /* F7F7F8 text */
+    border: none;
+    /* Remove borders */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 50%;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Pointer/hand icon */
+    font-size: 18px;
+    /* Increase font size */
+    height: 60px;
+    width: 60px;
+}

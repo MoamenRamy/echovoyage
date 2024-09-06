@@ -1,0 +1,92 @@
+.trips-block {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.trip-card {
+    width: 350px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+
+.trip-card a {
+    text-decoration: none;
+    color: #000;
+}
+
+.trip-card .trip-header img {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0px;
+}
+
+.trip-card .content {
+    padding: 15px 10px 0;
+}
+
+.trip-card .content .trip-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.trip-card .content .content-col {
+    display: flex;
+    width: 100%;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+
+.trip-card .content .trip-category {
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+.trip-card .content .trip-star-rating {
+    font-size: 12px;
+}
+
+.trip-card .trip-footer {
+    display: flex;
+    padding: 0px 10px 10px;
+    justify-content: space-between;
+}
+
+.trip-card .trip-footer .col-1 {
+    width: 50%;
+}
+
+.trip-card .trip-footer .col-1 p {
+    margin: 2px 0;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+.trip-card .trip-footer .col-1 .old-price {
+    text-decoration: line-through;
+}
+
+.trip-card .trip-footer .col-1 .price {
+    color: #d53939;
+    font-weight: bold;
+}
+
+.trip-card .trip-footer .col-2 {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.trip-card .trip-footer .col-2 .trip-btn {
+    background-color: #ffb200;
+    opacity: 0.9;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border: none;
+}
