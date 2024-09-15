@@ -391,6 +391,53 @@ body {
   color: #000;
 } */
 
+#bookNow {
+  /* display: none; */
+  /* color: 	#0078FF; */
+  position: fixed;
+  bottom: 100px;
+  right: 22px;
+  z-index: 99;
+  background-color: transparent;
+  /* color: #F7F7F8; */
+  border: none;
+  /* padding: 15px; */
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 50px;
+  height: 60px;
+  width: 60px;
+}
+
+.book-now-banner {
+  position: fixed;
+  display: inline-block;
+  bottom: 105px;
+  right: 95px;
+}
+
+.banner-body {
+  background-color: #0078FF; /* Messenger-like blue color */
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.banner-arrow {
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-left: 12px solid #0078FF; /* Matches the banner body color */
+  position: absolute;
+  top: 51%; /* Vertically center the arrow */
+  right: -13px; /* Position the arrow on the right */
+  transform: translateY(-50%); /* Ensure the arrow is centered vertically */
+}
+
+
 
 @media (max-width: 768px) {
   .footer-container {
